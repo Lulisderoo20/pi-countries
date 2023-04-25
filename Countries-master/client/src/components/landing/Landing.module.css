@@ -1,0 +1,40 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.conPrin {
+    background-image: url('../Img/landing.jpg');
+    background-size:contain ;
+    width: 100vmax;
+    height: 100vmax;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.homepage {
+    margin: 40px;
+    width: 70%; 
+      
+}
+
+
+.boton {
+    padding: 12px 25px;
+    border-radius: 50px;
+    background-color: #000000;
+    border: none;
+    cursor: pointer;
+    font-family: 'Arvo', serif;
+    font-weight: 700;
+    font-size:medium;
+    transition: all 0.3s ease 0s;
+    color: white;
+    
+}
+.boton:hover{
+    background-color: #07648f;
+    border-color: goldenrod;
+    color: antiquewhite;
+}

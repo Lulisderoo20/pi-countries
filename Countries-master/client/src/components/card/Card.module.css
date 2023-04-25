@@ -1,0 +1,43 @@
+.h3{
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-size: x-large;
+    text-align: center;
+    margin: 10px 0px -15px 0px ;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.h5 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+
+.flag{
+    border-radius: 4%;
+    width: 8em;
+    height: 5.5em;
+        
+}
+
+.card{
+    border-radius: 3%;
+    background-color: rgba(0, 0, 0, 0.831);
+    height: 250px;
+    width: 270px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    margin: 15px;
+    transform: scale(var(--escala, 1));
+    transition: transform 0.25s;
+}
+
+.card:hover{
+    --escala: 1.1;
+    cursor:pointer;
+  }

@@ -1,0 +1,138 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.detail{
+    color: rgb(255, 255, 255);
+    margin: 4px;
+}
+
+.p{
+     color: rgb(255, 255, 255);
+    margin: 4px;
+}
+
+.firstdiv {
+    background-image: url('../Img/paises.jpg');
+    background-size: cover;
+    width: auto;
+    height: 120vh;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    align-content: center;
+    justify-content: center;
+    display: block;
+    
+}
+
+.card{
+    border-radius: 3%;
+    margin: 40px;
+    background-color: rgba(0, 0, 0, 0.471);
+    min-height: 500px;
+    width:fit-content;
+    justify-content: center;
+    align-items: center;
+    display:inline-flex;
+    padding-right: 70px;
+   
+}
+
+.titulo {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+
+.flag {
+    border-radius: 5px;
+    width: 12em;
+    height: 7.5em;
+    margin-bottom: -10px;
+    
+}
+
+.conact {
+    width: 200px;
+    margin-left: 70px;
+    border-radius: 3%;
+    margin: 40px;
+    background-color: rgba(255, 255, 255, 0.444);
+    position: relative;
+    left: 50px;
+    
+}
+
+
+.h4 {
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-size:xx-large;
+    text-align: center;
+    margin-bottom: -15px;
+
+}
+
+.continente {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: large;
+    margin-bottom: -15px;
+}
+
+.nombre {
+    color: rgb(255, 255, 255);
+    margin-bottom: 8px;
+}
+
+.codigo {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    
+}
+
+.nav {
+    background-color: #000000da;
+    align-items: center;
+    justify-content: center;
+    height: 110px;
+    width: 100%;
+    display: inline-flex;
+       
+}
+
+.bothome {
+    height: 155px;
+        
+}
+
+.bothome:hover {
+    height: 106px;
+    opacity: 90%;
+}
+
+
+.botactd {
+    padding: 12px 25px;
+    border-radius: 50px;
+    background-color: #0088c4;
+    border: none;
+    cursor: pointer;
+    font-family: 'Arvo', serif;
+    font-weight: 700;
+    font-size:medium;
+    transition: all 0.3s ease 0s;
+    color: white;
+    margin: 10px;
+}
+.botactd:hover{
+    background-color: #07648f;
+    border-color: goldenrod;
+    color: antiquewhite;
+}
+
+.conpais {
+    margin-top: -50px;
+    padding-left: 50px;
+}
